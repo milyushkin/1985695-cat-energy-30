@@ -8,26 +8,24 @@
     <!-- Блок Header -->
     <header class="main-header">
       <!-- Логотип -->
-      <a class="main-header__logo">
-        <img
+      <div class="main-header__wrapper-logo">
+        <a class="main-header__logo" href="#">
+          <img
           class="main-header__logo-image"
           src="img/main-header/logo/logo-pic.png"
           width="33"
           height="38"
-          width="33"
-          height="38"
           alt="Кот с крыльями"
         />
-        <img
+          <img
           class="main-header__logo-name"
           src="img/main-header/logo/logo-text.png"
           width="101"
           height="18"
-          width="101"
-          height="18"
           alt="Cat Energy"
         />
-      </a>
+        </a>
+    </div>
       <!-- Навигация -->
       <nav class="main-nav">
         <button class="main-nav__toggle" type="button">
@@ -48,6 +46,7 @@
         </div>
       </nav>
     </header>
+    <main class="main-container">
     <!-- Блок Hero -->
     <section class="hero">
       <div class="hero__wrapper">
@@ -66,7 +65,7 @@
     <!-- Программа питания -->
     <section class="program">
       <div class="program__wrapper">
-        <h2 class="visually-hidden">Программы питания</h2>
+        <h2 class="visually-hidden title">Программы питания</h2>
         <ul class="program__list">
           <li class="program__item">
             <img
@@ -105,7 +104,7 @@
     <!-- Как это работает -->
     <section class="how-it-works">
       <div class="how-it-works__wrapper">
-        <h2 class="how-it-works__title">Как это работает</h2>
+        <h2 class="how-it-works__title title">Как это работает</h2>
         <ul class="how-it-works__list">
           <li class="how-it-works__item">
             <img
@@ -151,5 +150,88 @@
           </li>
       </div>
     </section>
+    <!-- Живой пример -->
+    <section class="example">
+      <div class="example__wrapper">
+        <h2 class="example__title title">Живой пример</h2>
+        <p class="example__description">Борис сбросил 5 кг за 2 месяца, просто заменив свой
+          обычный корм на Cat Energy Slim. Отличный результат
+          без изнуряющих тренировок! При этом он не менял своих
+          привычек и по-прежнему спит по 16 часов в день. </p>
+          <div class="example__row">
+            <div class="example__weight">
+              <p class="example__weight-sum">5 кг</p>
+              <p class="example__weight-description">снижение веса</p>
+            </div>
+            <div class="example__time">
+              <p class="example__time-days">60 дней</p>
+              <p class="example__time-description">затрачено времени</p>
+            </div>
+          </div>
+          <div class="example__money">
+            <p class="example__money-description">Затраты на питание:</p>
+            <p class="example__money-sum">15 000 руб.</p>
+          </div>
+          <div class="example__slider">
+            <img
+              class="example__image"
+              src="img/example/cat-slider-tablet.png"
+              width="280"
+              height="256"
+              alt="Слайдер сравнения котов до/после"
+            />
+          </div>
+      </div>
+      <!-- Где мы находимся -->
+    <section class="location">
+      <div class="location__wrapper">
+        <h2 class="visually-hidden title">Где мы находимся</h2>
+        <div class="location__blok-text">
+          <p class="location__invite">Приглашаем к сотрудничеству дилеров!</p>
+          <p class="location__address">ул. Большая Конюшенная, д. 19/8</p>
+          <p class="location__sity">Санкт-Петербург</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="main-footer">
+      <div class="main-footer__wrapper">
+        <div class="main-footer__wrapper-logo">
+          <a class="main-footer__logo" href="#">
+            <img
+            class="main-footer__logo-name"
+            src="img/main-header/logo/logo-text.png"
+            width="128"
+            height="24"
+            alt="Cat Energy"
+          />
+          </a>
+      </div>
+        <div class="main-footer__social social">
+          <ul class="social__list">
+            <li class="social__item">
+              <a class="social__link social__link--vkontakte" href="#">Мы в Вконтакте</a>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--youtube" href="#">Мы в Ютубе</a>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--telegram" href="#">Мы в Телеграме</a>
+            </li>
+          </ul>
+        </div>
+        <div class="main-footer__wrapper">
+            <div class="main-footer__wrapper-logo">
+              <a class="main-footer__logo-html" href="#">HTML Academy</a>
+              <a class="main-footer__icon-html" href="#">
+                <img src="img/logo-html/Лого_html 1.png"
+                width="27"
+                height="34"
+                alt="HTML Academy"
+              />
+              </a>
+          </div>
+        </div>
+  </footer>
   </body>
 </html>
