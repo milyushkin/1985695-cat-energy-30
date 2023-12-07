@@ -6,41 +6,29 @@
   </head>
   <body class="page__body">
     <!-- Блок шапка Header -->
-    <header class="main-header">
+    <header class="header">
       <!-- Логотип -->
-      <div class="main-header__wrapper-logo">
-        <a class="main-header__logo" href="#" href="#">
-            <img
-          class="main-header__logo-image"
-          src="img/main-header/logo/logo-pic.png"
-          width="33"
-          height="38"
-          alt="Кот с крыльями"
-        />
-            <img
-          class="main-header__logo-name"
-          src="img/main-header/logo/logo-text.png"
-          width="101"
-          height="18"
-          alt="Cat Energy"
-        />
-          </a>
-    </div>
+      <div class="header__wrapper-logo">
+        <a class="header__logo-link" href="#" href="#">
+          <img class="header__logo-image" src="#"/>
+          <span class="header__logo-name">Cat Energy</span>
+        </a>
+      </div>
       <!-- Навигация -->
-      <nav class="main-nav">
-        <button class="main-nav__toggle" type="button">
+      <nav class="nav">
+        <button class="nav__toggle" type="button">
           <span class="visually-hidden">Открыть меню</span>
         </button>
-        <div class="main-nav__wrapper">
-          <ul class="main-nav__list site-list">
-            <li class="site-list__item site-list__item--active">
+        <div class="nav__wrapper">
+          <ul class="nav__list site-list">
+            <li class="nav__item site-list__item--active">
               <a> Главная </a>
             </li>
-            <li class="site-list__item">
-              <a href="catalog.html"> Каталог продукции </a>
+            <li class="nav__item">
+              <a href="catalog.html">Каталог продукции</a>
             </li>
-            <li class="site-list__item">
-              <a href="form.html"> Подбор программы </a>
+            <li class="nav__item">
+              <a href="form.html">Подбор программы</a>
             </li>
           </ul>
         </div>
@@ -53,28 +41,17 @@
         <h1 class="hero__title title">Функциональное питание для котов</h1>
         <p class="hero__slogan">Занялся собой? Займись котом!</p>
         <img
-          class="hero__image"
-          src="img/hero/index-can-tablet 1.png"
-          width="280"
-          height="270"
-          alt="Кот с крыльями"
-        />
-        <button class="hero__button" type="button">Подобрать программу</button>
+          class="hero__image" src="#" alt="Контейнер с кормом Cat Energy" />
+          <button class="hero__button" type="button">Подобрать программу</button>
       </div>
     </section>
     <!-- Программа питания -->
     <section class="program">
       <div class="program__wrapper">
-        <h2 class="visually-hidden title title">Программы питания</h2>
+        <h2 class="visually-hidden title">Программы питания</h2>
         <ul class="program__list">
           <li class="program__item">
-            <img
-              class="program__icon"
-              src="img/program/cat-slim.png"
-              width="50"
-              height="53"
-              alt="Кот сидит"
-            />
+            <img class="program__icon" src="#" alt="Кот стройный сидит"/>
             <h3 class="program__title">Похудение</h3>
             <p class="program__description">
               Ваш кот весит больше собаки и почти утратил способность лазить по
@@ -84,13 +61,7 @@
             <a class="program__link" href="#">Каталог slim</a>
           </li>
           <li class="program__item">
-            <img
-              class="program__icon"
-              src="img/program/cat-pro.png"
-              width="67"
-              height="50"
-              alt="Кот идёт"
-            />
+            <img class="program__icon" src="#" alt="Кот большой идёт"/>
             <h3 class="program__title">Набор массы</h3>
             <p class="program__description">
               Заработать авторитет среди дворовых котов и даже собак? Серия Cat
@@ -104,24 +75,24 @@
     <!-- Как это работает -->
     <section class="how-it-works">
       <div class="how-it-works__wrapper">
-        <h2 class="how-it-works__title title title">Как это работает</h2>
+        <h2 class="how-it-works__title title">Как это работает</h2>
         <ul class="how-it-works__list">
           <li class="how-it-works__item">
             <img class="how-it-works__icon" src="#"/>
             <p class="how-it-works__description">Функциональное питание содержит только полезные питательные вещества.</p>
           </li>
           <li class="how-it-works__item">
-            <img class="how-it-works__icon" src="img/how-it-works/icon_cup.png"/>
+            <img class="how-it-works__icon" src="#"/>
             <p class="how-it-works__description">Выпускается в виде порошка,
               который нужно лишь залить
               кипятком и готово.</p>
           <li class="how-it-works__item">
-            <img class="how-it-works__icon" src="img/how-it-works/icon_fork.png"/>
+            <img class="how-it-works__icon" src="#"/>
             <p class="how-it-works__description">Замените один-два приема
               обычной еды на наше
               функциональное питание.</p>
           <li class="how-it-works__item">
-            <img class="how-it-works__icon" src="img/how-it-works/icon_alarm.png"/>
+            <img class="how-it-works__icon" src="#"/>
             <p class="how-it-works__description">Уже через месяц наслаждайтесь изменениями к лучшему вашего питомца!</p>
           </li>
       </div>
@@ -134,35 +105,29 @@
           обычный корм на Cat Energy Slim. Отличный результат
           без изнуряющих тренировок! При этом он не менял своих
           привычек и по-прежнему спит по 16 часов в день. </p>
-          <div class="example__row">
-            <div class="example__weight">
+          <ul class="example__row">
+            <li class="example__weight">
               <p class="example__weight-sum">5 кг</p>
               <p class="example__weight-description">снижение веса</p>
-            </div>
-            <div class="example__time">
+            </li>
+            <li class="example__time">
               <p class="example__time-days">60 дней</p>
               <p class="example__time-description">затрачено времени</p>
-            </div>
-          </div>
+            </li>
+          </ul>
           <div class="example__money">
             <p class="example__money-description">Затраты на питание:</p>
             <p class="example__money-sum">15 000 руб.</p>
           </div>
           <div class="example__slider">
-            <img
-              class="example__image"
-              src="img/example/cat-slider-tablet.png"
-              width="280"
-              height="256"
-              alt="Слайдер сравнения котов до/после"
-            />
+            <img class="example__image" src="#" alt="Слайдер сравнения фото кота до и после"/>
           </div>
       </div>
     <!-- Где мы находимся -->
     <section class="location">
       <div class="location__wrapper">
         <h2 class="visually-hidden title">Где мы находимся</h2>
-        <div class="location__blok-text">
+        <div class="location__block-text">
           <p class="location__invite">Приглашаем к сотрудничеству дилеров!</p>
           <p class="location__address">ул. Большая Конюшенная, д. 19/8</p>
           <p class="location__sity">Санкт-Петербург</p>
@@ -171,20 +136,15 @@
     </section>
   </main>
   <!-- Подвал сайта footer -->
-  <footer class="main-footer">
-      <div class="main-footer__wrapper">
-        <div class="main-footer__wrapper-logo">
-          <a class="main-footer__logo" href="#">
-            <img
-            class="main-footer__logo-name"
-            src="img/main-header/logo/logo-text.png"
-            width="128"
-            height="24"
-            alt="Cat Energy"
-          />
+  <footer class="footer">
+      <div class="footer__wrapper">
+        <div class="footer__wrapper-logo">
+          <a class="footer__logo-link" href="#" href="#">
+            <img class="footer__logo-image" src="#"/>
+            <span class="footer__logo-name">Cat Energy</span>
           </a>
-      </div>
-        <div class="main-footer__social social">
+        </div>
+        <div class="footer__social social">
           <ul class="social__list">
             <li class="social__item">
               <a class="social__link social__link--vkontakte" href="#">Мы в Вконтакте</a>
@@ -197,17 +157,11 @@
             </li>
           </ul>
         </div>
-        <div class="main-footer__wrapper">
-            <div class="main-footer__wrapper-logo">
-              <a class="main-footer__logo-html" href="#">HTML Academy</a>
-              <a class="main-footer__icon-html" href="#">
-                <img src="img/logo-html/Лого_html 1.png"
-                width="27"
-                height="34"
-                alt="HTML Academy"
-              />
-              </a>
-          </div>
+        <div class="footer__wrapper-logo-html">
+          <a class="footer__logo-link-html" href="#" href="#">
+            <span class="footer__logo-name-html">HTML Academy</span>
+            <img class="footer__logo-image-html" src="#"/>
+          </a>
         </div>
   </footer>
   </body>
