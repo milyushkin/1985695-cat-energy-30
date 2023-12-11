@@ -5,6 +5,64 @@
     <title>Подбор программы"</title>
   </head>
   <body class="page__body">
-
+<!-- Блок шапка Header -->
+<header class="header">
+  <!-- Логотип -->
+  <div class="header__wrapper-logo">
+    <a class="header__logo-link" href="#">
+      <img class="header__logo-image" src="#"/>
+      <span class="header__logo-name">Cat Energy</span>
+    </a>
+  </div>
+  <!-- Навигация -->
+  <nav class="nav">
+    <button class="nav__toggle" type="button">
+      <span class="visually-hidden">Открыть меню</span>
+    </button>
+    <div class="nav__wrapper">
+      <ul class="nav__list site-list">
+        <li class="nav__item site-list__item--active">
+          <a> Главная </a>
+        </li>
+        <li class="nav__item">
+          <a href="catalog.html">Каталог продукции</a>
+        </li>
+        <li class="nav__item">
+          <a href="form.html">Подбор программы</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+<!-- Форма исходных данных -->
+<main class="main">
+  <!-- Шапка формы -->
+  <section class="form-header">
+    <div class="form-header__wrapper">
+      <h2 class="form-header__title">Подбор программы</h2>
+      <p class="form-header__description">Заполните анкету, и мы подберем программу питания для вашего кота</p>
+    </div>
+  </section>
+  <!-- Личные данные питомца -->
+  <section class="form-data-cat">
+    <div class="form-data-cat__wrapper">
+      <h3 class="visually-hidden">Подбор программы</h3>
+          <label class="form-data-cat__label" for="name-cat">
+          <span class="form-data-cat__attribute">Имя:*</span>
+          <input class="form-data-cat__input" type="text" name="data-cat" id="name-cat"
+            placeholder="Барсик" required>
+          </label>
+          <label class="form-data-cat__label" for="weight-cat">
+          <span class="form-data-cat__attribute">Вес (кг):*</span>
+          <input class="form-data-cat__input" type="text" name="data-cat" id="weight-cat"
+            placeholder="7" required>
+          </label>
+          <label class="form-data-cat__label" for="age-cat">
+          <span class="form-data-cat__attribute">Возраст (лет)</span>
+          <input class="form-data-cat__input" type="text" name="data-cat" id="age-cat"
+            placeholder="7">
+          </label>
+    </div>
+  </section>
   </body>
 </html>
