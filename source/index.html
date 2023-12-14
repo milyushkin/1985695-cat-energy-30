@@ -39,7 +39,11 @@
       <section class="hero">
           <h1 class="hero__title title">Функциональное питание для котов</h1>
           <p class="hero__slogan">Занялся собой? Займись котом!</p>
-          <img class="hero__image" src="#" alt="Контейнер с кормом Cat Energy" />
+          <picture>
+            <source type="image/png" media="(min-width: 1440px)" srcset="images/hero/index-can@1x.png 1x, images/hero/index-can@2x.png 2x" >
+            <source type="image/png" media="(min-width: 768px)" srcset="images/hero/index-can-tablet@1x.png 1x, images/hero/index-can-tablet@2x.png 2x" >
+            <img class="hero__image" src="images/hero/index-can-mobile@1x.png" srcset="images/hero/index-can-mobile@2x.png 2x" width="280" height="auto" alt="Контейнер с кормом Cat Energy">
+          </picture>
           <button class="hero__button" type="button">Подобрать программу</button>
       </section>
       <!-- Программа питания -->
@@ -101,7 +105,10 @@
             <p class="example__money-sum">15 000 руб.</p>
           </div>
           <div class="example__slider">
-            <img class="example__image" src="#" alt="Слайдер сравнения фото кота до и после"/>
+            <picture>
+              <source type="image/png" media="(min-width: 768px)" srcset="images/slider/cat-slider-tablet@1.png 1x, images/slider/cat-slider-tablet@2.png 2x" >
+              <img class="example__image" src="images/slider/cat-slider-mobile@1.png" srcset="images/slider/cat-slider-mobile@2.png 2x" width="280" height="auto" alt="Слайдер сравнения фото кота до и после">
+            </picture>
           </div>
       </section>
       <!-- Где мы находимся -->
