@@ -1,3 +1,4 @@
-body {
-  font-family: "Lato", sans-serif;
+.body {
+  @include font-text("Lato", 14px, 18px, #444444);
+  margin: 0;
 }

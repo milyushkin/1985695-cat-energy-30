@@ -1,15 +1,18 @@
-hero {
-  padding: 0;
+.hero__wrapper {
+  background-color: rgba(104, 183, 56, 0.85);
 }
 
-hero__title {
-  padding: 0;
+.hero__title {
+  @include font-text("Oswald", 36px, 36px, #ffffff );
+  text-align: center;
+  padding: 24px;
+  margin: 0;
 }
 
-hero__slogan {
-  padding: 0;
-}
-
-hero__button {
-  padding: 0;
+.hero__slogan {
+  @include font-text("Oswald", 14px, 14px, #ffffff );
+  text-transform: uppercase;
+  text-align: center;
+  padding: 25px;
+  margin: 0;
 }
