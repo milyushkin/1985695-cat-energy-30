@@ -1,13 +1,39 @@
 .example {
-  padding: 0;
+  background-color: $color-bg-other;
+  padding: 25px 20px 40px 20px;
 }
 
-.example__title {
-  padding: 0;
+.example__list {
+  @include reset-list();
+  @include flex-center();
+  padding-top: 20px;
 }
 
-.example__description {
-  padding: 0;
+.example__item {
+  @include flex-center();
+  flex-direction: column;
+
 }
 
+.example__index {
+  @include font-text("Oswald", 24px, 24px, $color-text-main);
+  text-transform: uppercase;
+  text-align: center;
+}
 
+.example__remark {
+  @include font-text("Lato", 12px, 100%, $color-text-main);
+  text-align: center;
+  padding-top: 7.53px;
+}
+
+.example__money {
+  @include font-text("Oswald", 14px, 20px, $color-text-main);
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.example__slider {
+  padding-top: 20px;
+}

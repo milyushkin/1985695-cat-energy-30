@@ -5,22 +5,15 @@
   background-color: $color-bg-main;
 }
 
-// .nav__toggle {
-  // }
-
 .nav__list {
   @include reset-list();
 }
-
-  // .site-list {
-    // }
-
-    // .nav__item {
-    // }
+.nav__item {
+  @include flex-center();
+  height: 66px;
+  border-top: 1px solid #E6E6E6;
+}
 
 .nav__link {
   text-decoration: none;
 }
-
-// site-list__item--active {
-// }
