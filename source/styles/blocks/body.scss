@@ -1,0 +1,4 @@
+.body {
+  @include font-text("Lato", 14px, 18px, $color-text-main);
+  margin: 0;
+}

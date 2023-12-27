@@ -1,0 +1,17 @@
+.location {
+  background-color: $color-bg-main;
+  padding: 26px 20px;
+}
+
+.location__block-text {
+  @include flex-center();
+}
+
+.location__invite {
+  @include font-text("Oswald", 16px, 20px, $color-text-main);
+  text-transform: uppercase;
+}
+
+.location__address {
+  line-height: 20px;
+}

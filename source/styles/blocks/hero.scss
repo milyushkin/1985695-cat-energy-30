@@ -1,0 +1,27 @@
+.hero__wrapper {
+  background-color: rgba(104, 183, 56, 0.85);
+  height: 302px;
+}
+
+.hero__title {
+  @include font-text("Oswald", 36px, 36px, $color-text-spec);
+  text-align: center;
+  padding-top: 27px;
+  margin: 0;
+}
+
+.hero__slogan {
+  @include font-text("Oswald", 14px, 14px, $color-text-spec);
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 25px;
+  margin: 0;
+}
+
+.hero__img-content {
+  @include flex-center()
+}
+
+.hero__btn-wrapper {
+  @include flex-center()
+}

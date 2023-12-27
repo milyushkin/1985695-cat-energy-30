@@ -1,0 +1,10 @@
+.button {
+  width: 280px;
+  height: 40px;
+  background-color: $color-bg-spec;
+  @include font-text("Oswald", 16px, 20px, $color-text-spec);
+  text-transform: uppercase;
+  text-align: center;
+  border: none;
+  padding: 10px 20px;
+}
