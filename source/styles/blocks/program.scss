@@ -1,0 +1,46 @@
+// program {
+//   padding: 0;
+// }
+
+.program__list {
+  @include reset-list();
+  padding: 20px 20px 0 20px;
+}
+
+.program__item {
+  width: 240px;
+  background-color: $color-bg-other;
+  padding: 20px;
+  margin: 0 0 20px 0;
+}
+
+// program__icon {
+//   padding: 0;
+// }
+
+.program__title {
+  @include font-text("Oswald", 36px, 36px, $color-text-main);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.program__description {
+  padding-top: 29px;
+  margin: 0;
+}
+
+.program__line {
+  border-bottom: 1px solid #D9D9D9;
+  padding-top: 23px;
+}
+
+.program__link-wrapper {
+  padding-top: 15px;
+}
+
+.program__link {
+  @include font-text("Oswald", 18px, 18px, $color-text-main);
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 0;
+}

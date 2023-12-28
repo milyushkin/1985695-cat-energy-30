@@ -1,0 +1,19 @@
+
+.nav {
+  @include font-text("Oswald", 20px, 20px, $color-text-main);
+  text-transform: uppercase;
+  background-color: $color-bg-main;
+}
+
+.nav__list {
+  @include reset-list();
+}
+.nav__item {
+  @include flex-center();
+  height: 66px;
+  border-top: 1px solid #E6E6E6;
+}
+
+.nav__link {
+  text-decoration: none;
+}
